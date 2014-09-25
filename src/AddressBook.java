@@ -37,10 +37,13 @@ public class AddressBook {
 	public static void main(String[] args) {
 		BuddyInfo Friend = new BuddyInfo("Tom","Carleton","1234");
 		BuddyInfo NewFriend = new BuddyInfo("Jim","Carleton","2354");
+		BuddyInfo NewestFriend = new BuddyInfo("jj","Carleton","5555");
 		AddressBook addressBook = new AddressBook();
 		addressBook.addBuddy(Friend);
 		addressBook.addBuddy(NewFriend);
+		addressBook.addBuddy(NewestFriend);
 		addressBook.removeBuddy(0);
+	
 		
 	  
 	    
